@@ -6,7 +6,7 @@ export const Business = (businessObj) => {
         <section class="business">
         <h2 class="business__name">${businessObj.companyName}</h2>
         <div class="business__street">${businessObj.addressFullStreet}</div>
-        <div> ${businessObj.addressCity}, ${businessObj.addressStateCode}  ${businessObj.addressZipCode}</div>
+        <div class="business__locations"> ${businessObj.addressCity}, ${businessObj.addressStateCode}  ${businessObj.addressZipCode}</div>
 
     
     `
