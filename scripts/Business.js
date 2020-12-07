@@ -1,3 +1,6 @@
+//Creates the HTML that will appear on the DOM by accessing the objects within
+//the array using dot notation.  Exports for use by BusinessList
+
 export const Business = (businessObj) => {
     return `
         <section class="business">
