@@ -111,6 +111,10 @@ const businesses = [
     }
   ];
 
+  //exports a copy of the above data by using the .slice method, assigns it to
+  //the empty array created on line 1
   export const useBusinesses = () => {
     return businesses.slice()
   }
+
+ 
